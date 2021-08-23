@@ -28,5 +28,21 @@ img {
   transition: 0.5s;
 }
 img:hover {
-  transform: scale(2) rotate(360deg);
+  transform: rotate(360deg);
+}
+button {
+  margin: 50px;
+  width: 150px;
+  font-size: 25px;
+  background: #6d0020;
+  border: 3px solid #6d0020;
+  color: white;
+  border-radius: 20px 0 20px 0;
+  transition: 0.25s;
+}
+button:hover {
+  border-radius: 0 20px 0 20px;
+}
+button:active {
+  transform: scale(1.2);
 }
